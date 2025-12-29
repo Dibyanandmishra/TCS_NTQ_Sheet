@@ -33,6 +33,11 @@ public class SecondSmallestLargest {
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
 
+        // for (int i = 0; i < arr.length; i++) {
+        //     int num = arr[i];
+        // }    ---> Instead of this we can use enhanced for loop
+
+        // Enhanced for loop (for each loop)
         for (int num : arr) {
 
             // Second Smallest
